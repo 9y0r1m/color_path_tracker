@@ -1,0 +1,17 @@
+<package format="3">
+  <name>color_path_tracker</name>
+  <version>0.0.0</version>
+  <description>Color path tracker with OpenCV</description>
+  <maintainer email="yunjung@example.com">Yunjung</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
